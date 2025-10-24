@@ -51,7 +51,11 @@ PATTERNS = {
     # - Permite formatos DD/MM/AAAA, DD-MM-AAAA, o AAAA-MM-DD.
     # - Valida días (00–31), meses (00–12) y años de 4 dígitos.
     'Fecha': re.compile(
-        r'\b(?:[0-3]?\d[\/\-][01]?\d[\/\-](?:\d{4}))|(?:\d{4}[\-][01]?\d[\-][0-3]?\d)\b'
+    r'\b(?:'
+    r'(?:[0-3]?\d[\/-][01]?\d[\/-](?:\d{2}|\d{4}))'   # DD/MM/YYYY o DD-MM-YYYY o DD/MM/YY
+    r'|'
+    r'(?:\d{4}[\/-][01]?\d[\/-][0-3]?\d)'             # YYYY/MM/DD o YYYY-MM-DD
+    r')\b'
     ),
 
     # ----------------------------------------------------------
@@ -71,7 +75,7 @@ PATTERNS = {
     # - Reconoce códigos numéricos de exactamente 5 dígitos.
     # - Muy útil para sistemas postales como el colombiano.
     'Código Postal': re.compile(
-        r'\b\d{5}\b'
+        r'\b\d{5,6}\b'
     ),
 
     # ----------------------------------------------------------
