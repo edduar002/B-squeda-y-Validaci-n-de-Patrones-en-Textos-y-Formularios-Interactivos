@@ -9,7 +9,7 @@ usuario y el sistema. Permite cargar un texto, analizarlo en busca de patrones
 (correos, teléfonos, URLs, fechas, etc.) y mostrar los resultados de manera clara
 y ordenada.
 
-Autor: Eduardo Cortes Pineda
+Autor: Eduardo Cortes Pineda, Luis Manuel Osorio Medina y Andres Felipe Ruiz Escarraga
 Fecha: 20/10/2025
 Versión: 1.0
 """

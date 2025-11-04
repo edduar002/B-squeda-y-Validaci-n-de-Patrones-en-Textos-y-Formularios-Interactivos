@@ -9,7 +9,7 @@ El texto de ejemplo incluye diferentes tipos de datos estructurados
 URLs y placas de vehículos), los cuales sirven para validar las expresiones
 regulares implementadas en el sistema.
 
-Autor: Eduardo Cortes Pineda
+Autor: Eduardo Cortes Pineda, Luis Manuel Osorio Medina y Andres Felipe Ruiz Escarraga
 Fecha: 20/10/2025
 Versión: 1.0
 """

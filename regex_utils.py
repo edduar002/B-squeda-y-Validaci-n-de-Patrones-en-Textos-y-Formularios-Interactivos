@@ -8,7 +8,7 @@ Este archivo contiene:
 - Un diccionario con patrones precompilados (`PATTERNS`) para distintos tipos de datos.
 - Funciones que permiten buscar coincidencias en un texto dado.
 
-Autor: Eduardo Cortes Pineda
+Autor: Eduardo Cortes Pineda, Luis Manuel Osorio Medina y Andres Felipe Ruiz Escarraga
 Fecha: 20/10/2025
 Versión: 1.0
 """
